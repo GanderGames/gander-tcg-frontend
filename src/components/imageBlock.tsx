@@ -5,7 +5,7 @@ interface props{
     img: string
 }
 
-export default function imageBlock (prop:props) {
+export default function ImageBlock (prop:props) {
   return (
     <div>
         <Image className='rounded-3xl'  src={prop.img} alt="epic" width={500} height={100}/>
